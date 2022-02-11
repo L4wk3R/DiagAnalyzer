@@ -1,0 +1,41 @@
+<html>
+<title>USB Analysis Report of the Eventtranscript.db</title>
+<head>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        body {
+            padding: 20px;
+            margin: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table tr {
+            border-bottom: 1px solid
+        }
+        table th, table td {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>USB Analysis Report of the Eventtranscript.db</h1>
+
+<h2>Basic Device Information within the Eventtranscript.db<h2>
+<br/>
+{{ dev_table }}
+<br/>
+<h2>Timeline Graph of USB Connection and Disconnection<h2>
+<br/>
+{{ usb_graph }}
+<br/>
+<h2>Connected USB Information<h2>
+<br/>
+{{ usb_table }}
+
+</body>
+</html>
