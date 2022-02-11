@@ -3,7 +3,7 @@ Diaganalyzer is a user bahavior analysis tool for Eventtranscript.db. This is ju
 
 
 # Basic Usage
-Diaganalyzer needs to 2 options which are input file path and analysis option. Examples of usages are following : 
+Diaganalyzer needs to two options which are input file path and analysis option. Examples of usages are following : 
 
 ```
 >> python diaganalyzer.py --help
@@ -11,4 +11,4 @@ Diaganalyzer needs to 2 options which are input file path and analysis option. E
 >> python diaganalyzer.py -i .\EventTranscript.db -o browser 
 >> python diaganalyzer.py -i .\EventTranscript.db -o wifi
 ```
-Then, you can see analysis reports in ```[installed dir]\report\``` directory. There are sample reports in ```\report_samples\``` in this repository.
+Then, you can see analysis reports in ```[installed dir]\report\``` directory. There are sample reports in [```\report_samples\```](https://github.com/L4wk3R/DiagAnalyzer/tree/main/report_samples) in this repository.
